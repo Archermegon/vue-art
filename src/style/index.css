@@ -1,0 +1,39 @@
+
+/* 初始化样式 */
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+ul{
+    list-style: none
+}
+img{
+    width: 100%;
+}
+
+
+/* 四大主页的包裹样式 */
+.container{
+    padding-bottom: 60px;;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('./fonts/iconfont.eot');
+  src: url('./fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/iconfont.woff2') format('woff2'),
+    url('./fonts/iconfont.woff') format('woff'),
+    url('./fonts/iconfont.ttf') format('truetype'),
+    url('./fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+font-family: "iconfont" !important;
+font-size: 16px;
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
